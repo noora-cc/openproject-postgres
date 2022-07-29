@@ -1,7 +1,7 @@
 app:
     name: OpenProject Postgres Master
     code: OpenProjectPostgres
-    notify: appz@ecloudcontrol.com
+    notify: noora@ecloudcontrol.com
     
 build:
     version: 13.X
@@ -19,7 +19,7 @@ deploy:
     
 volumes:
   - claim: postgres-master-data
-    mount: /appz/data
+    mount: /noora-cc/data
     name: data
     size: 5Gi
     mode: ReadWriteOnce   
